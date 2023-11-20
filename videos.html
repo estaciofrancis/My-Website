@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Videos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/vstyle.css"/>
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head> 
+  <body>
+    <nav>
+      <div class="logo">
+        <i class="bx bx-menu menu-icon"></i>
+        <span class="logo-name">My Videos</span>
+      </div>
+      <div class="sidebar">
+        <div class="logo">
+          <i class="bx bx-menu menu-icon"></i>
+          <span class="logo-name"></span>
+        </div>
+
+        <div class="sidebar-content">
+          <ul class="lists">
+            <li class="list">
+              <a href="index.html" class="nav-link">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="link">Home</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="profile.html" class="nav-link">
+                <i class='bx bx-user icon'></i>
+                <span class="link">Profile</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="picture.html" class="nav-link">
+                <i class='bx bx-image-alt icon'></i>
+                <span class="link">Pictures</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="videos.html" class="nav-link">
+                <i class='bx bx-movie-play icon'></i>
+                <span class="link">Videos</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="about.html" class="nav-link">
+                <i class='bx bx-info-circle icon'></i>
+                <span class="link">About</span>
+              </a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="overlay"></section>
+
+    <div class="vid-main-wrapper clearfix">
+
+      <!-- THE YOUTUBE PLAYER -->
+  <div class="vid-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9jpZL9d4B5M?si=QeUY6vlMjl7jI2Oe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <!-- THE PLAYLIST -->
+  <div class="vid-list-container">
+        <ol id="vid-list">
+          <li>
+            <a href="https://www.youtube.com/watch?v=oWBDZo3axYg" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/vYoh2IgoBXg?autoplay=1&rel=0&showinfo=0&autohide=1'">
+              <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/oWBDZo3axYg/default.jpg" /></span>
+              <div class="desc" style="margin-top: 3%;">True Sight: The International 2017 Finals</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/watch?v=Bv4CqIxqTMA" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Bv4CqIxqTMA?autoplay=1&rel=0&showinfo=0&autohide=1'">
+              <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/Bv4CqIxqTMA/default.jpg" /></span>
+              <div class="desc" style="margin-top: 3%;">True Sight: The International 2018 Finals
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=ceQ2XFS1tUo" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/9P7mEf4bilg?autoplay=1&rel=0&showinfo=0&autohide=1'">
+              <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/ceQ2XFS1tUo/default.jpg" /></span>
+              <div class="desc" style="margin-top: 3%;">True Sight: The International 2019 Finals</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=NFEwN1N3vvA" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/KHxNpXovl58?autoplay=1&rel=0&showinfo=0&autohide=1'">
+              <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/NFEwN1N3vvA/default.jpg" /></span>
+              <div class="desc" style="margin-top: 3%;">True Sight: The International 2021 Finals</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/watch?v=3k-cTvUwioc" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/KHxNpXovl58?autoplay=1&rel=0&showinfo=0&autohide=1'">
+              <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/cTvUwioc/default.jpg" /></span>
+              <div class="desc" style="margin-top: 2%;">The Most ICONIC Moments in The International History (Dota 2)</div>
+            </a>
+          </li>
+
+          
+          <li>
+
+          
+        </ul>
+   </div>
+
+</div>
+
+    <script src="script.js"></script>
+    <script src="vscript.js"></script>
+  </body>
+</html>
